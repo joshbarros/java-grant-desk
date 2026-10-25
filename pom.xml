@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>3.4.5</version>
+    <relativePath/>
+  </parent>
+  <groupId>com.grantdesk</groupId>
+  <artifactId>grant-desk</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>grant-desk</name>
+  <modules>
+    <module>common</module>
+    <module>sponsor-service</module>
+    <module>program-service</module>
+    <module>grantee-service</module>
+    <module>milestone-service</module>
+    <module>award-service</module>
+    <module>draw-service</module>
+    <module>eligibility-service</module>
+    <module>compliance-service</module>
+    <module>voucher-service</module>
+    <module>disbursement-service</module>
+    <module>acknowledgement-service</module>
+    <module>clawback-service</module>
+    <module>audit-service</module>
+  </modules>
+  <properties>
+    <java.version>17</java.version>
+  </properties>
+</project>

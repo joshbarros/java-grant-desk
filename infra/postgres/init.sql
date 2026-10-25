@@ -1,0 +1,13 @@
+CREATE DATABASE sponsors;
+CREATE DATABASE programs;
+CREATE DATABASE grantees;
+CREATE DATABASE milestones;
+CREATE DATABASE awards;
+CREATE DATABASE draws;
+CREATE DATABASE eligibility;
+CREATE DATABASE compliance;
+CREATE DATABASE vouchers;
+CREATE DATABASE disbursements;
+CREATE DATABASE acknowledgements;
+CREATE DATABASE clawbacks;
+CREATE DATABASE audit;
